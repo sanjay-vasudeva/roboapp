@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-// import logo from './logo.svg';
-// import './App.css';
-import '/.Hello.css';
+import logo from './logo.svg';
+import './Hello.css';
+import './App.css';
+
 
 
 class Hello extends Component {
@@ -10,6 +11,7 @@ class Hello extends Component {
         <div class="Welcome">
           <h1>Hello World</h1>
           <p>Welcome to my first react app</p>
+          <img src={logo} className="App-logo" alt="logo" />
         </div>
       );
     }
