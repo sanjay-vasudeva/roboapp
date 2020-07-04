@@ -5,12 +5,13 @@ import './App.css';
 
 
 
+
 class Hello extends Component {
     render() {
       return (
-        <div class="Welcome">
+        <div class="Welcome tc baskerville grow">
           <h1>Hello World</h1>
-          <p>Welcome to my first react app</p>
+          <p class="f3">Welcome to my first react app</p>
           <img src={logo} className="App-logo" alt="logo" />
         </div>
       );
