@@ -1,19 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-import Hello from './Hello';
 import 'tachyons';
+import Card from './Card';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <Hello greet={function greeting(){
-    return 'Hello guys';
-  }}/>
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>
-  ,
+  <React.StrictMode>
+  <Card />
+  </React.StrictMode>
+   ,
   document.getElementById('root')
 );
 
