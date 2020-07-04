@@ -7,7 +7,9 @@ import 'tachyons';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <Hello />
+  <Hello greet={function greeting(){
+    return 'Hello guys';
+  }}/>
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>
